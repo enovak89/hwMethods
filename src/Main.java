@@ -1,10 +1,13 @@
 import java.time.LocalDate;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         task1();
         task2();
         task3();
+        taskAdd1();
+        taskAdd6();
     }
 
     public static void task1() {
@@ -55,5 +58,27 @@ public class Main {
             daysOfDelivery = 0;
         }
         return daysOfDelivery;
+    }
+
+
+    public static void taskAdd1() {
+        System.out.println("taskAdd6");
+        getMin(8, 4);
+    }
+
+    public static int getMin(int a, int b) {
+        System.out.println(Math.min(a, b));
+        return Math.min(a, b);
+    }
+
+    public static void taskAdd6() {
+        System.out.println("taskAdd6");
+        int[] array = {5, 4, 3, 2, 1};
+        sortArr(array);
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static void sortArr(int[] arr) {
+        Arrays.sort(arr);
     }
 }
