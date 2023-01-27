@@ -71,6 +71,7 @@ public class Main {
         return Math.min(a, b);
     }
 
+
     public static void taskAdd6() {
         System.out.println("taskAdd6");
         int[] array = {5, 4, 3, 2, 1};
